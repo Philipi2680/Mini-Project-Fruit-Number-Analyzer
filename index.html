@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Exercises Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>JavaScript Exercises</h1>
+
+    <!-- User Inputs -->
+    <div class="card">
+      <h2>Step 1: Enter Info</h2>
+      <label>Name:</label>
+      <input type="text" id="nameInput" placeholder="Enter your name">
+
+      <label>Number:</label>
+      <input type="number" id="numberInput" placeholder="Enter a number">
+
+      <label>Sentence:</label>
+      <input type="text" id="sentenceInput" placeholder="Enter a short sentence">
+
+      <label>Favorite Fruits (3):</label>
+      <input type="text" id="fruit1" placeholder="Fruit 1">
+      <input type="text" id="fruit2" placeholder="Fruit 2">
+      <input type="text" id="fruit3" placeholder="Fruit 3">
+
+      <button onclick="runExercises()">Run Program</button>
+    </div>
+
+    <!-- Output -->
+    <div class="card">
+      <h2>Results</h2>
+      <pre id="output"></pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
