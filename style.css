@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   background: linear-gradient(to right, #83a4d4, #b6fbff);
@@ -12,7 +12,6 @@ body {
   padding: 20px;
 }
 
-/* Card Style */
 .card {
   background: white;
   padding: 20px;
@@ -21,7 +20,6 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Headings */
 h1 {
   text-align: center;
   color: #333;
@@ -33,7 +31,6 @@ h2 {
   padding-bottom: 5px;
 }
 
-/* Inputs */
 input {
   display: block;
   width: 100%;
@@ -50,7 +47,6 @@ input:focus {
   box-shadow: 0 0 5px #4CAF50;
 }
 
-/* Button */
 button {
   width: 100%;
   padding: 12px;
@@ -66,7 +62,6 @@ button:hover {
   background: #45a049;
 }
 
-/* Output */
 pre {
   background: #1e1e1e;
   color: #00ff88;
